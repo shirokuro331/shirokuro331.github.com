@@ -1,4 +1,5 @@
-baseURL = "ttps://shirokuro331.github.io"
-languageCode = "ja"
+baseURL = "https://shirokuro331.github.io/"
+languageCode = "en-us"
 title = "shirokuro331"
 theme = "ananke"
+canonifyurls = true
