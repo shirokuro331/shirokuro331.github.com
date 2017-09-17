@@ -1,1 +1,2 @@
-# shirokuro331.github.com
+# Read me
+[HUGO](https://gohugo.io/) してみる
