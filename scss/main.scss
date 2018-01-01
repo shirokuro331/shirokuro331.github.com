@@ -142,17 +142,29 @@ footer {
 
 @media only screen and (max-width: 800px) {
     /* Style adjustments for viewports that meet the condition */
-    section{
-        margin-top: 6rem;
+    article{
+        margin-top: 4.5rem;
         padding: 0 2rem;
     }
+    figure{
+        img {
+            width: 40%;
+        }
+    }
+    h1{
+        font-size: 1.6rem;
+    }
+    .en-notation{
+        font-size: 0.8rem;
+    }
     ul{
-        margin-bottom: 4rem;
+    margin: 0 0 2.85rem;
+        li{
+            margin-bottom: 1rem;
+            line-height: 1.6;
+            font-size: 1rem;
+        }
     }
-    li{
-        margin-bottom: 0.5rem;
-    }
-
 }
 
 
