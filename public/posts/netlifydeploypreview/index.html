@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="keyword 1, keyword 2, keyword 3" name="keywords">
+<meta content="Toshiaki Sasaki" name="author">
+<meta property="og:title" content="HUGO &#43; Netlify 環境で deploy preview やる手順 - blog | shirokuro331">
+<meta property="og:url" content="https://shirokuro331.netlify.com/posts/netlifydeploypreview/">
+<meta property="og:description" content="Your description here">
+<meta property="og:type" content="website" />
+<title>HUGO &#43; Netlify 環境で deploy preview やる手順 | blog | shirokuro331</title>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<link rel="stylesheet" href="https://shirokuro331.netlify.com//css/style.css">
+<link rel="shortcut icon" href="https://shirokuro331.netlify.com//wave.ico">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/default.min.css" integrity="sha256-Zd1icfZ72UBmsId/mUcagrmN7IN5Qkrvh75ICHIQVTk=" crossorigin="anonymous" />
+
+</head>
+
+<body>
+<section class="section">
+  <div class="container">
+    <nav class="nav">
+      <div class="nav-left">
+        <a class="nav-item" href="https://shirokuro331.netlify.com/"><h1 class="title is-4">blog | shirokuro331</h1></a>
+      </div>
+      <div class="nav-right">
+        <nav class="nav-item level is-mobile">
+          
+        </nav>
+      </div>
+    </nav>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h1 class="title">HUGO &#43; Netlify 環境で deploy preview やる手順</h1>
+    <h2 class="subtitle is-5">April 7, 2018 by Toshiaki Sasaki</h2>
+    
+    <div class="content">
+      <p>ブランチごとに Preview 用の URL 吐いてくれる deploy preview 使える Netlify まじ便利だ。</p>
+
+<ul>
+<li>ローカルで branch きる</li>
+<li>GitHub に add して commit して 新たにきった branch に push する</li>
+<li>GitHub で作った branch から pull request 作る<br />
+<img src="/images/netlifydeploypreview/1.png" alt="" /><br />
+<img src="/images/netlifydeploypreview/2.png" alt="" /></li>
+<li>pull request ができたら <code>Show all checks</code> というテキストをクリックして <code>Details</code> をクリックすれば preview 用がページ開く<br />
+<img src="/images/netlifydeploypreview/3.png" alt="" /></li>
+<li>preview して問題なければ本番 branch  に merge する</li>
+<li>公開</li>
+</ul>
+
+<p>これだけ。ほんと便利。</p>
+
+    </div>
+    
+        <div class="nav-left">
+    <a class="nav-item" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fshirokuro331.netlify.com%2fposts%2fnetlifydeploypreview%2f" title="Share on Facebook" target="_blank"><span class="fa fa-facebook fa-2x" aria-hidden="true"></span></a>
+    <a class="nav-item" href="https://twitter.com/home?status=HUGO%20%2b%20Netlify%20%e7%92%b0%e5%a2%83%e3%81%a7%20deploy%20preview%20%e3%82%84%e3%82%8b%e6%89%8b%e9%a0%86 - https%3a%2f%2fshirokuro331.netlify.com%2fposts%2fnetlifydeploypreview%2f" title="Tweet this" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
+    </div>
+    
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p>&copy; 2017 shirokuro331| Follow on <a href="https://twitter.com/shirokuro331" target="_blank">Twitter</a></p>
+  </div>
+</section>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.11.0/highlight.min.js" integrity="sha256-+bhVTaRmJ/c07eV80nU8gD2cBBF0rYkf1txqXlrbvb0=" crossorigin="anonymous"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-106570266-1', 'auto');
+ga('send', 'pageview');
+</script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
+
+
+
+</body>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on blog | shirokuro331</title>
+    <link>https://shirokuro331.netlify.com/posts/</link>
+    <description>Recent content in Posts on blog | shirokuro331</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <copyright>&amp;copy; 2017 shirokuro331| Follow on &lt;a href=&#34;https://twitter.com/shirokuro331&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt;</copyright>
+    <lastBuildDate>Sat, 07 Apr 2018 11:23:01 +0900</lastBuildDate>
+    
+	<atom:link href="https://shirokuro331.netlify.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HUGO &#43; Netlify 環境で deploy preview やる手順</title>
+      <link>https://shirokuro331.netlify.com/posts/netlifydeploypreview/</link>
+      <pubDate>Sat, 07 Apr 2018 11:23:01 +0900</pubDate>
+      
+      <guid>https://shirokuro331.netlify.com/posts/netlifydeploypreview/</guid>
+      <description>ブランチごとに Preview 用の URL 吐いてくれる deploy preview 使える Netlify まじ便利だ。
+ ローカルで branch きる GitHub に add して commit して 新たにきった branch に push する GitHub で作った branch から pull request 作る
+ pull request ができたら Show all checks というテキストをクリックして Details をクリックすれば preview 用がページ開く
+ preview して問題なければ本番 branch に merge する 公開  これだけ。ほんと便利。</description>
+    </item>
+    
+    <item>
+      <title>Netlify &#43; Hugo でサイト作る手順</title>
+      <link>https://shirokuro331.netlify.com/posts/hellownetlifyhugo/</link>
+      <pubDate>Sat, 13 Jan 2018 11:23:01 +0900</pubDate>
+      
+      <guid>https://shirokuro331.netlify.com/posts/hellownetlifyhugo/</guid>
+      <description>Netlify を使えば GitHub に Hugo のファイル push すれば自動でビルドしてくれる。GitHub Pages でもできるけど Netlify 使ってみる。
+用意するもの  Hugo ファイル一式 参照 : Quick Start GitHub のアカウント Netlify のアカウント  GitHub アカウントでサインインできる   手順  適当な GitHub repository をつくる Hugo のファイル一式を push する
+git clone :URL: https://github.com/shirokuro331/netlify-blog.git cd :categoryname: git add -A git commit -m &amp;quot;commitlog&amp;quot; git push origin master  Netlify から GitHub の repository を選択する
+ build の設定をする
+ Bransh : master Build command : hugo &amp;ndash;theme=hucore &amp;ndash;buildDrafts Publish directory : public/ うまくいかない場合 : Netlify 上で使う Hugo のバージョンを指定する   まとめ パフォーマンスが高い Netlify が簡単に使えるのは魅力的。今年はたくさんブログ書こう。うん。</description>
+    </item>
+    
+    <item>
+      <title>株式会社CAMPFIREに入社しました</title>
+      <link>https://shirokuro331.netlify.com/posts/joincampfire/</link>
+      <pubDate>Mon, 03 Jul 2017 11:23:01 +0900</pubDate>
+      
+      <guid>https://shirokuro331.netlify.com/posts/joincampfire/</guid>
+      <description>2012年から5年ほど勤めた株式会社オールコネクトを6月に退職しまして、7月より株式会社CAMPFIREに入社しました。
+オールコネクトではモバレコというスマホ情報メディアサイトのプロデューサーとして事業の立ち上げから予算作成やコンテンツディレクションをしていましたが、これからはCAMPFIREという日本最大のクラウドファンディング・プラットフォームをグロースさせるべくWebディレクターとして働いていきます。
+オールコネクト在職中はたくさんの人たちに助けていただきながら、いろいろな経験をさせていただきました。本当に、ありがとうございました。
+さて、CAMPFIREには「CAMPFIRE WAY」という行動理念があります。
+ 資金集めを民主化し、お金の偏りを無くし、世界中の誰しもが声をあげられる世の中をつくる
+ Webデザイナー → Webディレクター → プロデューサーというキャリアを歩んできた僕ではありますが、今までの経験を活かしてこのミッションを実現させるべく行動していきます。
+【新メンバー紹介🔥】
+ディレクター：さささん😁
+遠くからも見つけやすい187cm級ディレクター✊
+「やるべきことを全力でやっていきます」との熱いメッセージをいただきました🔥
+広報や家入さんと並ぶとこんな感じ。CAMPFIREで一番背が高いーーー！🗻✨ pic.twitter.com/FxT1zsOyfn
+&amp;mdash; CAMPFIRE🔥キャンプファイヤー (@CAMPFIREjp) 2017年7月3日 
+187cmさささん、渋谷で頑張る！！</description>
+    </item>
+    
+  </channel>
+</rss>
